@@ -43,6 +43,10 @@ sudo rm -rf ~/work/TC_XAR_Container_Sample/{*,.*} 2>/dev/null
 sudo docker ps -a
 ```
 
+```bash
+# Route ping to ethernet NIC ping -S <my_address> <controller_address>
+ping -S 169.254.16.233 169.254.128.246
+
 <details>
  
 ## License
